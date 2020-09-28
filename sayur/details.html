@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Masak Sayur - Fresh Vegetables</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top"
+      data-aos="fade-down"
+    >
+      <div class="container">
+        <a href="/index.html" class="navbar-brand">
+          <img src="/images/logo.png" height="50px" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a href="/foods.html" class="nav-link active">Makanan</a>
+            </li>
+            <li class="nav-item">
+              <a href="/reservasi.html" class="nav-link">Cara Pemesanan</a>
+            </li>
+          </ul>
+
+          <!-- desktop Menu -->
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item">
+              <a href="#" class="nav-link d-inline-block">
+                <i class="fa fa-2x fa-shopping-cart"></i>
+                <div class="cart-badge">3</div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav d-block d-lg-none">
+            <li class="nav-item">
+              <a href="/cart.html" class="nav-link d-inline-block">
+                Keranjang
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="page-content page-details">
+      <section class="store-gallery" id="gallery">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6" data-aos="zoom-in">
+              <transition name="slide-fade" mode="out-in">
+                <img src="images/bawang.jpg" class="w-100 main-image" alt="" />
+              </transition>
+            </div>
+            <div class="col-6">
+              <div class="store-details-container" data-aos="fade-up">
+                <section class="store-heading">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <h1>Bawang Goreng</h1>
+                        <div class="owner">1 Kg</div>
+                        <div class="price">Rp 22000</div>
+                      </div>
+                      <div class="col-12" data-aos="zoom-in">
+                        <div class="number-input mt-5">
+                          <div class="input-group">
+                            <input
+                              type="button"
+                              value="-"
+                              class="button-minus"
+                              data-field="quantity"
+                            />
+                            <input
+                              type="number"
+                              step="1"
+                              max=""
+                              value="1"
+                              name="quantity"
+                              class="quantity-field"
+                            />
+                            <input
+                              type="button"
+                              value="+"
+                              class="button-plus"
+                              data-field="quantity"
+                            />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-12" data-aos="zoom-in">
+                        <a
+                          href="cart.html"
+                          class="btn btn-success px-4 text-white mt-4"
+                        >
+                          Add to Cart
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="pt-4 pb-2">
+              2020 Copyright Masak Sayur. • Created with &hearts; by Yuutech
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/script/navbar-scroll.js"></script>
+    <script src="/script/inputnumber.js"></script>
+  </body>
+</html>

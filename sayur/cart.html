@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Masak Sayur - Fresh Vegetables</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top"
+      data-aos="fade-down"
+    >
+      <div class="container">
+        <a href="/index.html" class="navbar-brand">
+          <img src="/images/logo.png" height="50px" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a href="/foods.html" class="nav-link">Makanan</a>
+            </li>
+            <li class="nav-item">
+              <a href="/reservasi.html" class="nav-link">Cara Pemesanan</a>
+            </li>
+          </ul>
+
+          <!-- desktop Menu -->
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item">
+              <a href="#" class="nav-link active d-inline-block">
+                <i class="fa fa-2x fa-shopping-cart"></i>
+                <div class="cart-badge">3</div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav d-block d-lg-none">
+            <li class="nav-item">
+              <a href="/cart.html" class="nav-link d-inline-block">
+                Keranjang
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="page-content page-cart">
+      <section class="store-cart">
+        <div class="container">
+          <div class="row mt-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-12 mt-4 mb-3" data-aos="fade-up">
+              <h5>Keranjang Belanja</h5>
+            </div>
+            <div class="col-12 table-responsive">
+              <table class="table table-borderless table-cart">
+                <thead>
+                  <tr>
+                    <td>Gambar</td>
+                    <td>Nama</td>
+                    <td>Jumlah</td>
+                    <td>Price</td>
+                    <td>Menu</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="width: 20%">
+                      <img
+                        src="/images/kol.jpg"
+                        class="cart-image w-100"
+                        alt=""
+                      />
+                    </td>
+                    <td style="width: 35%">
+                      <div class="product-title">Sayur Kol</div>
+                    </td>
+                    <td style="width: 15%">
+                      <div class="product-title">2</div>
+                    </td>
+                    <td style="width: 20%">
+                      <div class="product-title">Rp 7000</div>
+                    </td>
+                    <td style="width: 20%">
+                      <a href="#" class="btn btn-remove-cart">Hapus</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="width: 20%">
+                      <img
+                        src="/images/tomat.jpg"
+                        class="cart-image w-100"
+                        alt=""
+                      />
+                    </td>
+                    <td style="width: 35%">
+                      <div class="product-title">Paprika</div>
+                    </td>
+                    <td style="width: 15%">
+                      <div class="product-title">1</div>
+                    </td>
+                    <td style="width: 20%">
+                      <div class="product-title">Rp 2000</div>
+                    </td>
+                    <td style="width: 20%">
+                      <a href="#" class="btn btn-remove-cart">Hapus</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="width: 20%">
+                      <img
+                        src="/images/bawang.jpg"
+                        class="cart-image w-100"
+                        alt=""
+                      />
+                    </td>
+                    <td style="width: 35%">
+                      <div class="product-title">Sayur Kol</div>
+                    </td>
+                    <td style="width: 15%">
+                      <div class="product-title">2</div>
+                    </td>
+                    <td style="width: 20%">
+                      <div class="product-title">Rp 4000</div>
+                    </td>
+                    <td style="width: 20%">
+                      <a href="#" class="btn btn-remove-cart">Hapus</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up" data-aos-delay="150">
+            <div class="col-12">
+              <hr />
+            </div>
+            <div class="col-12">
+              <h2 class="mb-4">Detail Pengiriman</h2>
+            </div>
+          </div>
+          <div class="row mb-2" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" class="form-control" id="name" name="name" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="hp">No HP / WA</label>
+                <input type="text" class="form-control" id="hp" name="hp" />
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="AddressOne">Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="AddressOne"
+                  name="AddressOne"
+                />
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="keterangan">Pesan Untuk Penjual</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="keterangan"
+                  name="keterangan"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up" data-aos-delay="150">
+            <div class="col-12">
+              <hr />
+            </div>
+            <div class="col-12">
+              <h2 class="mb-2">Informasi Pembayaran</h2>
+            </div>
+          </div>
+          <div class="row mt-3" data-aos="fade-up" data-aos-delay="150">
+            <div class="col-4 col-md-2">
+              <div class="product-title">5</div>
+              <div class="product-subtitle">Barang di Beli</div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="product-title">Rp 5000</div>
+              <div class="product-subtitle">Ongkos Kirim</div>
+            </div>
+            <div class="col-4 col-md-3">
+              <div class="product-title">Rp 24000</div>
+              <div class="product-subtitle">Total Harga Barang</div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="product-title text-success">Rp 29000</div>
+              <div class="product-subtitle">Total</div>
+            </div>
+            <div class="col-8 col-md-3 align-self-center">
+              <a href="/success.html" class="btn btn-success px-4 btn-block">
+                Pesan Sekarang
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="pt-4 pb-2">
+              2020 Copyright Masak Sayur. • Created with &hearts; by Yuutech
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/script/navbar-scroll.js"></script>
+  </body>
+</html>
